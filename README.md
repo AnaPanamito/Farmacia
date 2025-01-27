@@ -1,1 +1,3 @@
 # Farmacia
+
+Diagrama de clase 
