@@ -10,7 +10,6 @@ La Farmacia es el núcleo del sistema, actuando como entidad principal que coord
 Los Clientes son actores fundamentales que interactúan con el sistema para realizar Pedidos de Medicamentos. Estos pedidos pueden procesarse en cualquier Sucursal, permitiendo flexibilidad en la atención al cliente.
 Los Medicamentos son los productos que fluyen a través del sistema, pudiendo estar disponibles en diferentes Sucursales y siendo objeto de los Pedidos de los Clientes.
 El control de acceso y seguridad se maneja a través de Usuarios, cada uno con un Rol específico que determina sus permisos y capacidades dentro del sistema.
-En resumen, es un ecosistema interconectado donde cada clase cumple una función específica pero interdependiente, permitiendo la gestión eficiente de una red de farmacias, sus productos, empleados y clientes.
 
 
 
