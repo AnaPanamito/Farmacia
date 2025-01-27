@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import path
 from prueba import views
-from .views import FarmaciaView, SucursalView
+from .views import FarmaciaView, SucursalView, MedicamentoView, PedidoView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index', views.index, name='index'),
