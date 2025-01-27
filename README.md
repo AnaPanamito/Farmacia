@@ -17,3 +17,19 @@ Django
 ![image](https://github.com/user-attachments/assets/bc8bc0e7-58fa-4fb5-ab1e-19d197a6f2e4)
 
 ![image](https://github.com/user-attachments/assets/e9b0f009-f8c0-402a-afa8-71cc057f51bf)
+
+![image](https://github.com/user-attachments/assets/4c8fc328-0c7d-4ffa-a7c8-e9c91a5b864b)
+
+![image](https://github.com/user-attachments/assets/63d17b05-0811-4a9c-964d-fa0de99f5628)
+
+![image](https://github.com/user-attachments/assets/5d17d8db-afdb-4a74-9556-c1c1957c834e)
+
+![image](https://github.com/user-attachments/assets/0e1c60ee-3387-4dff-b27f-a3b7724e48de)
+
+![image](https://github.com/user-attachments/assets/68d3de3c-dcd5-47f7-8bdc-74f2f88a3076)
+
+![image](https://github.com/user-attachments/assets/a1fe7810-2018-4dd3-8f6c-a010ac64573b)
+
+
+
+
