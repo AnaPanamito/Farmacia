@@ -30,6 +30,8 @@ Django
 
 ![image](https://github.com/user-attachments/assets/a1fe7810-2018-4dd3-8f6c-a010ac64573b)
 
+![image](https://github.com/user-attachments/assets/1496e31c-91ad-48f7-8c4b-1708de0bbf47)
+
 
 
 
