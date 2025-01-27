@@ -4,6 +4,16 @@ Diagrama de clase
 
 ![image](https://github.com/user-attachments/assets/441bb1fb-961d-4bd1-ad11-4b9d8f6fe3a2)
 
+En este diagrama de clases representa la estructura organizacional, donde:
+
+La Farmacia es el núcleo del sistema, actuando como entidad principal que coordina todas las operaciones. Esta se ramifica en Sucursales, que son los puntos físicos de venta donde ocurren las transacciones directas con los clientes.
+Los Clientes son actores fundamentales que interactúan con el sistema para realizar Pedidos de Medicamentos. Estos pedidos pueden procesarse en cualquier Sucursal, permitiendo flexibilidad en la atención al cliente.
+Los Medicamentos son los productos que fluyen a través del sistema, pudiendo estar disponibles en diferentes Sucursales y siendo objeto de los Pedidos de los Clientes.
+El control de acceso y seguridad se maneja a través de Usuarios, cada uno con un Rol específico que determina sus permisos y capacidades dentro del sistema.
+En resumen, es un ecosistema interconectado donde cada clase cumple una función específica pero interdependiente, permitiendo la gestión eficiente de una red de farmacias, sus productos, empleados y clientes.
+
+
+
 Django
 
 ![image](https://github.com/user-attachments/assets/129173b0-bd6f-45ca-9060-68fd13278199)
