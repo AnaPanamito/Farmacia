@@ -17,29 +17,23 @@ Django
 
 ![image](https://github.com/user-attachments/assets/6c54ee63-4cd8-4a44-a98e-04ea445ffe56)
 
-![image](https://github.com/user-attachments/assets/89fd021e-f83f-491b-92e9-1a42007ff754)
+![image](https://github.com/user-attachments/assets/d33a1436-0465-4d46-b8f9-a7e68fe5c539)
 
-![image](https://github.com/user-attachments/assets/52079c38-7e51-4235-b853-2314c6c413f2)
+![image](https://github.com/user-attachments/assets/5daab75b-cca2-4cb0-8e16-d823207d8d90)
 
-![image](https://github.com/user-attachments/assets/77359919-a596-4292-9c99-543e1e836434) 
+![image](https://github.com/user-attachments/assets/4ae5667c-f798-4366-b215-2f7b01baa710)
 
-![image](https://github.com/user-attachments/assets/df8eb9e0-4b9b-4bc0-aa6f-53c83747a945)
+![image](https://github.com/user-attachments/assets/eae9febf-6892-41ad-b16d-75cc36f1c08a)
 
-![image](https://github.com/user-attachments/assets/07b37167-c385-4e14-b5b6-8a1b992c519f)
+![image](https://github.com/user-attachments/assets/edf67a42-f165-413c-a361-c5fd337b4f10)
 
-![image](https://github.com/user-attachments/assets/7a88a3ba-9dc7-4165-8456-8bb167055984)
+![image](https://github.com/user-attachments/assets/3014cb06-416f-4713-8f34-b136c710399f)
 
-![image](https://github.com/user-attachments/assets/5725fb96-1896-486e-ad3e-19c8cf2df226)
+![image](https://github.com/user-attachments/assets/e8123afb-8c75-4e67-94b1-7539327747e2)
 
-![image](https://github.com/user-attachments/assets/04367bf3-3741-4b94-b53c-ebb0e30ba7a9)
+![image](https://github.com/user-attachments/assets/b95c85ff-7550-4f2e-9a1a-5430c1cac432)
 
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/60a44815-87aa-4779-8b5f-852b4d0ee514)
 
 
 
