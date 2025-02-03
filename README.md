@@ -36,6 +36,7 @@ Django
 ![image](https://github.com/user-attachments/assets/60a44815-87aa-4779-8b5f-852b4d0ee514)
 
 Templace 
+
 ![image](https://github.com/user-attachments/assets/f53d5058-790f-401a-b682-59edf800e1ba
 
 ![image](https://github.com/user-attachments/assets/63432458-c7d1-4a66-a888-458a4b83fd97
