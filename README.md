@@ -35,11 +35,10 @@ Django
 
 ![image](https://github.com/user-attachments/assets/60a44815-87aa-4779-8b5f-852b4d0ee514)
 
-Templace 
+HTML
+![image](https://github.com/user-attachments/assets/f53d5058-790f-401a-b682-59edf800e1ba)
 
-![image](https://github.com/user-attachments/assets/f53d5058-790f-401a-b682-59edf800e1ba
-
-![image](https://github.com/user-attachments/assets/63432458-c7d1-4a66-a888-458a4b83fd97
+![image](https://github.com/user-attachments/assets/63432458-c7d1-4a66-a888-458a4b83fd97)
 
 ![image](https://github.com/user-attachments/assets/c35f2f27-a7a5-4a72-9ea5-343f085fdc39)
 
@@ -48,6 +47,8 @@ Templace
 ![image](https://github.com/user-attachments/assets/fed592ff-5c4a-421b-a62b-0f0b7dfdbd10)
 
 ![image](https://github.com/user-attachments/assets/375edcc7-740b-46ef-bf7b-9a0625421705)
+
+
 
 
 
