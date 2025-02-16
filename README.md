@@ -11,7 +11,7 @@ Los Medicamentos son los productos que fluyen a través del sistema, pudiendo es
 El control de acceso y seguridad se maneja a través de Usuarios, cada uno con un Rol específico que determina sus permisos y capacidades dentro del sistema.
 
 
-/admin/
+## /admin/
 ![image](https://github.com/user-attachments/assets/56b9e134-acd3-4d3c-8b5f-51ddb0def718)
 ![image](https://github.com/user-attachments/assets/0b085fd0-d156-417c-9bb8-d3bff4d8d5e5)
 ![image](https://github.com/user-attachments/assets/e324543b-97b3-48ed-83cf-b257e5fd0f1a)
@@ -24,6 +24,20 @@ El control de acceso y seguridad se maneja a través de Usuarios, cada uno con u
 ![image](https://github.com/user-attachments/assets/cd210acf-4d93-4751-9735-de1106b0ae4a)
 ![image](https://github.com/user-attachments/assets/60319d85-da71-4dac-9fdc-3a430e8ac7fa)
 
+## /registro/
+![image](https://github.com/user-attachments/assets/43eb3fb2-a808-4af3-9615-03f281b6f943)
+## /login/
+![image](https://github.com/user-attachments/assets/0962b994-f418-4a40-aa13-c6397086238c) 
+## /inicio/
+![image](https://github.com/user-attachments/assets/02087a03-a60f-45ea-8cf2-36c5c8c87e1b)
+## /productos/
+![image](https://github.com/user-attachments/assets/4ede158f-48eb-4e7e-8fab-5bdd891e8cc1)
+## /inventario/
+![image](https://github.com/user-attachments/assets/edf22090-f055-4d73-9cf7-9a0163f7f7ae)
+## /transferencias/
+![image](https://github.com/user-attachments/assets/e47f362e-bd3e-43cc-9c1c-902bac77c681)
+## /facturas/
+![image](https://github.com/user-attachments/assets/0993338b-ab0c-434e-8f99-8cd0f60b3168)
 
 
 
