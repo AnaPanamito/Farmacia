@@ -38,26 +38,11 @@ El control de acceso y seguridad se maneja a través de Usuarios, cada uno con u
 ![image](https://github.com/user-attachments/assets/e47f362e-bd3e-43cc-9c1c-902bac77c681)
 ## /facturas/
 ![image](https://github.com/user-attachments/assets/784b4650-39a7-4356-aa94-daad049152d9)
-
-
-
-HTML
-![image](https://github.com/user-attachments/assets/f53d5058-790f-401a-b682-59edf800e1ba)
-
-![image](https://github.com/user-attachments/assets/63432458-c7d1-4a66-a888-458a4b83fd97)
-
-![image](https://github.com/user-attachments/assets/c35f2f27-a7a5-4a72-9ea5-343f085fdc39)
-
-![image](https://github.com/user-attachments/assets/a6d29d1b-f0e7-4bd3-b55e-ccf7d9a9f6b1)
-
-![image](https://github.com/user-attachments/assets/fed592ff-5c4a-421b-a62b-0f0b7dfdbd10)
-
-![image](https://github.com/user-attachments/assets/375edcc7-740b-46ef-bf7b-9a0625421705)
-
-![image](https://github.com/user-attachments/assets/c677ebdf-0313-475b-8508-697c5ebe6dde)
-
-
-
-
+## /inventario/nuevo/
+![image](https://github.com/user-attachments/assets/97f071b1-e7c7-49de-8a3e-95744f9639b6)
+## /transferencias/crear/
+![image](https://github.com/user-attachments/assets/ccb893cc-17f4-4c06-9360-54ffdc9ba9ce)
+## /factura/crear/
+![image](https://github.com/user-attachments/assets/2617595b-3526-4789-bdf6-7e7be456f048)
 
 
