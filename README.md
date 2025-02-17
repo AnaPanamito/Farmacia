@@ -25,24 +25,24 @@ El control de acceso y seguridad se maneja a través de Usuarios, cada uno con u
 ![image](https://github.com/user-attachments/assets/60319d85-da71-4dac-9fdc-3a430e8ac7fa)
 
 ## /registro/
-![image](https://github.com/user-attachments/assets/43eb3fb2-a808-4af3-9615-03f281b6f943)
+![image](https://github.com/user-attachments/assets/a6643467-8286-4cda-baaa-0388407b2670)
 ## /login/
 ![image](https://github.com/user-attachments/assets/0962b994-f418-4a40-aa13-c6397086238c) 
 ## /inicio/
-![image](https://github.com/user-attachments/assets/02087a03-a60f-45ea-8cf2-36c5c8c87e1b)
+![image](https://github.com/user-attachments/assets/3a9b0cba-b070-4438-8e30-b725df13e917)
 ## /productos/
-![image](https://github.com/user-attachments/assets/4ede158f-48eb-4e7e-8fab-5bdd891e8cc1)
+![image](https://github.com/user-attachments/assets/0a113866-6bbf-4f30-80cb-3fe3b6627697)
 ## /inventario/
-![image](https://github.com/user-attachments/assets/ffff7040-fb42-43cb-901b-da9111b76c45)
+![image](https://github.com/user-attachments/assets/b9740f7a-27ee-4fea-a4ab-aa4601991b87)
 ## /transferencias/
-![image](https://github.com/user-attachments/assets/e47f362e-bd3e-43cc-9c1c-902bac77c681)
+![image](https://github.com/user-attachments/assets/4f4d19fa-26a5-4ad1-8bd4-b65cf20f1b5f)
 ## /facturas/
-![image](https://github.com/user-attachments/assets/784b4650-39a7-4356-aa94-daad049152d9)
+![image](https://github.com/user-attachments/assets/51b978d1-505c-4832-9906-cb2cfaca456d)
 ## /inventario/nuevo/
-![image](https://github.com/user-attachments/assets/97f071b1-e7c7-49de-8a3e-95744f9639b6)
+![image](https://github.com/user-attachments/assets/b4dabbb0-dc73-4ed1-948f-d728e14c698e)
 ## /transferencias/crear/
-![image](https://github.com/user-attachments/assets/ccb893cc-17f4-4c06-9360-54ffdc9ba9ce)
+![image](https://github.com/user-attachments/assets/f130d1a9-a0f8-4554-9289-4b61ede342c0)
 ## /factura/crear/
-![image](https://github.com/user-attachments/assets/2617595b-3526-4789-bdf6-7e7be456f048)
+![image](https://github.com/user-attachments/assets/7f19fdd8-dfee-4292-8546-1e162dc4ec77)
 
 
