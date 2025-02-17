@@ -11,19 +11,6 @@ Los Medicamentos son los productos que fluyen a través del sistema, pudiendo es
 El control de acceso y seguridad se maneja a través de Usuarios, cada uno con un Rol específico que determina sus permisos y capacidades dentro del sistema.
 
 
-## /admin/
-![image](https://github.com/user-attachments/assets/56b9e134-acd3-4d3c-8b5f-51ddb0def718)
-![image](https://github.com/user-attachments/assets/0b085fd0-d156-417c-9bb8-d3bff4d8d5e5)
-![image](https://github.com/user-attachments/assets/e324543b-97b3-48ed-83cf-b257e5fd0f1a)
-![image](https://github.com/user-attachments/assets/28dea1b2-d6f5-4c94-b0d3-28d56fd72b91)
-![image](https://github.com/user-attachments/assets/0f3c3354-76e8-41a0-a37e-a93ae21c8f20)
-![image](https://github.com/user-attachments/assets/e6829afe-7656-43f0-892d-b9c96f0241af)
-![image](https://github.com/user-attachments/assets/61f7181a-7c35-442b-9799-3b0183d2b780)
-![image](https://github.com/user-attachments/assets/56e419ab-3986-4be4-ac37-4aa6dfed2a92)
-![image](https://github.com/user-attachments/assets/ed24acfb-7a7a-4910-b1cf-3ae384ea6a00)
-![image](https://github.com/user-attachments/assets/cd210acf-4d93-4751-9735-de1106b0ae4a)
-![image](https://github.com/user-attachments/assets/60319d85-da71-4dac-9fdc-3a430e8ac7fa)
-
 ## /registro/
 ![image](https://github.com/user-attachments/assets/a6643467-8286-4cda-baaa-0388407b2670)
 ## /login/
@@ -46,5 +33,18 @@ El control de acceso y seguridad se maneja a través de Usuarios, cada uno con u
 ![image](https://github.com/user-attachments/assets/f130d1a9-a0f8-4554-9289-4b61ede342c0)
 ## /factura/crear/
 ![image](https://github.com/user-attachments/assets/7f19fdd8-dfee-4292-8546-1e162dc4ec77)
+
+## /admin/
+![image](https://github.com/user-attachments/assets/56b9e134-acd3-4d3c-8b5f-51ddb0def718)
+![image](https://github.com/user-attachments/assets/0b085fd0-d156-417c-9bb8-d3bff4d8d5e5)
+![image](https://github.com/user-attachments/assets/e324543b-97b3-48ed-83cf-b257e5fd0f1a)
+![image](https://github.com/user-attachments/assets/28dea1b2-d6f5-4c94-b0d3-28d56fd72b91)
+![image](https://github.com/user-attachments/assets/0f3c3354-76e8-41a0-a37e-a93ae21c8f20)
+![image](https://github.com/user-attachments/assets/e6829afe-7656-43f0-892d-b9c96f0241af)
+![image](https://github.com/user-attachments/assets/61f7181a-7c35-442b-9799-3b0183d2b780)
+![image](https://github.com/user-attachments/assets/56e419ab-3986-4be4-ac37-4aa6dfed2a92)
+![image](https://github.com/user-attachments/assets/ed24acfb-7a7a-4910-b1cf-3ae384ea6a00)
+![image](https://github.com/user-attachments/assets/cd210acf-4d93-4751-9735-de1106b0ae4a)
+![image](https://github.com/user-attachments/assets/60319d85-da71-4dac-9fdc-3a430e8ac7fa)
 
 
