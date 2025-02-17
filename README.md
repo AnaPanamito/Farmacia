@@ -37,7 +37,7 @@ El control de acceso y seguridad se maneja a través de Usuarios, cada uno con u
 ## /inventario/editar/
 ![image](https://github.com/user-attachments/assets/a660484a-7fa7-4dbb-803a-952fd86773db)
 ## /transferencias/
-![image](https://github.com/user-attachments/assets/4f4d19fa-26a5-4ad1-8bd4-b65cf20f1b5f)
+![image](https://github.com/user-attachments/assets/b3450bdb-88ca-479a-98dd-5ff3abbc4beb)
 ## /facturas/
 ![image](https://github.com/user-attachments/assets/51b978d1-505c-4832-9906-cb2cfaca456d)
 ## /inventario/nuevo/
