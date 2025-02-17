@@ -29,7 +29,7 @@ El control de acceso y seguridad se maneja a través de Usuarios, cada uno con u
 ## /login/
 ![image](https://github.com/user-attachments/assets/0962b994-f418-4a40-aa13-c6397086238c) 
 ## /inicio/
-![image](https://github.com/user-attachments/assets/3a9b0cba-b070-4438-8e30-b725df13e917)
+![image](https://github.com/user-attachments/assets/528708fd-d818-4a1d-8e62-fab80c9dc177)
 ## /productos/
 ![image](https://github.com/user-attachments/assets/0a113866-6bbf-4f30-80cb-3fe3b6627697)
 ## /inventario/
