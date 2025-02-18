@@ -1,15 +1,33 @@
 # Farmacia
 
 Diagrama de clase 
+![image](https://github.com/user-attachments/assets/8efb4364-177d-47ea-a5d9-b4aa67b21acb)
 
+Este diagrama de clases representa un sistema de gestión para una farmacia, donde se modelan las entidades, sus atributos, operaciones y las relaciones entre ellas.
+Tenemos lo que es las clases principales que son:
+*Farmacia*: Representa la entidad principal con atributos como nombre, dirección y teléfono. 
+*Sucursal: Cada farmacia puede tener múltiples sucursales. La relación es de uno a muchos (), indicando que una farmacia tiene muchas sucursales, pero cada sucursal pertenece a una sola farmacia. 
+*Empleado*: Representa a los empleados de la farmacia, quienes tienen atributos como salario y cargo. Cada empleado está asociado a una persona (herencia de la clase Persona), y pertenece a una única sucursal.
+*Cliente*: Los clientes tienen atributos como teléfono y email, y pueden generar múltiples facturas.
+*Factura*: Contiene detalles como número, subtotal, impuesto, total y fecha, junto con métodos para calcular el subtotal, total y actualizar el inventario.
+*Producto*: Representa los productos disponibles, con atributos como nombre y precio. Cada producto puede estar relacionado con múltiples facturas e inventarios.
+*Inventario*: Administra los productos con atributos como código y cantidad.
+*Transferencia*: Maneja las transferencias de productos entre sucursales, con atributos como número, fecha, cantidad, y un método para completar la transferencia.
+Tambien tenemos las Relaciones:
+- Las *asociaciones* están claramente representadas, como la relación entre Cliente y Factura (1 a muchos), o entre Producto e Inventario (1 a muchos).
+- *Herencia*: La clase Persona actúa como clase base para Cliente y Empleado.
+Enumeraciones:
+- MetodoPago para definir si el pago es en efectivo o con tarjeta de crédito.
+- TipoEntrega para especificar si el producto se retira en el origen o en la sucursal actual.
+- Cargo para definir si un empleado es administrador o farmacéutico.
+- Estado para manejar el estado de una transferencia (pendiente, completada o cancelada).
+Multiplicidades:
+- Multiplicidades como 1..* (uno a muchos) indican que una entidad puede estar relacionada con múltiples instancias de otra, como Cliente que puede tener múltiples Facturas.
+- Los valores 1 indican relaciones uno a uno, por ejemplo, cada Empleado pertenece a una sola Sucursal.
+Enumeraciones:
+   - Las enumeraciones (MetodoPago, TipoEntrega, Cargo, Estado) definen valores constantes que simplifican el manejo de atributos fijos dentro de las clases.
 
-En este diagrama de clases representa la estructura organizacional, donde:
-
-La Farmacia es el núcleo del sistema, actuando como entidad principal que coordina todas las operaciones. Esta se ramifica en Sucursales, que son los puntos físicos de venta donde ocurren las transacciones directas con los clientes.
-Los Clientes son actores fundamentales que interactúan con el sistema para realizar Pedidos de Medicamentos. Estos pedidos pueden procesarse en cualquier Sucursal, permitiendo flexibilidad en la atención al cliente.
-Los Medicamentos son los productos que fluyen a través del sistema, pudiendo estar disponibles en diferentes Sucursales y siendo objeto de los Pedidos de los Clientes.
-El control de acceso y seguridad se maneja a través de Usuarios, cada uno con un Rol específico que determina sus permisos y capacidades dentro del sistema.
-
+Con este diagrama, se modela claramente la estructura de un sistema de farmacia, las relaciones entre las entidades y los detalles operativos necesarios para su gestión.
 
 ## /registro/
 ![image](https://github.com/user-attachments/assets/a6643467-8286-4cda-baaa-0388407b2670)
