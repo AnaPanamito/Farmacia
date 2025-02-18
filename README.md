@@ -5,14 +5,14 @@ Diagrama de clase
 
 Este diagrama de clases representa un sistema de gestión para una farmacia, donde se modelan las entidades, sus atributos, operaciones y las relaciones entre ellas.
 Tenemos lo que es las clases principales que son:
-*Farmacia*: Representa la entidad principal con atributos como nombre, dirección y teléfono. 
-*Sucursal: Cada farmacia puede tener múltiples sucursales. La relación es de uno a muchos (), indicando que una farmacia tiene muchas sucursales, pero cada sucursal pertenece a una sola farmacia. 
-*Empleado*: Representa a los empleados de la farmacia, quienes tienen atributos como salario y cargo. Cada empleado está asociado a una persona (herencia de la clase Persona), y pertenece a una única sucursal.
-*Cliente*: Los clientes tienen atributos como teléfono y email, y pueden generar múltiples facturas.
-*Factura*: Contiene detalles como número, subtotal, impuesto, total y fecha, junto con métodos para calcular el subtotal, total y actualizar el inventario.
-*Producto*: Representa los productos disponibles, con atributos como nombre y precio. Cada producto puede estar relacionado con múltiples facturas e inventarios.
-*Inventario*: Administra los productos con atributos como código y cantidad.
-*Transferencia*: Maneja las transferencias de productos entre sucursales, con atributos como número, fecha, cantidad, y un método para completar la transferencia.
+- *Farmacia*: Representa la entidad principal con atributos como nombre, dirección y teléfono.
+- *Sucursal: Cada farmacia puede tener múltiples sucursales. La relación es de uno a muchos (), indicando que una farmacia tiene muchas sucursales, pero cada sucursal pertenece a una sola farmacia.
+- *Empleado*: Representa a los empleados de la farmacia, quienes tienen atributos como salario y cargo. Cada empleado está asociado a una persona (herencia de la clase Persona), y pertenece a una única sucursal.
+- *Cliente*: Los clientes tienen atributos como teléfono y email, y pueden generar múltiples facturas.
+- *Factura*: Contiene detalles como número, subtotal, impuesto, total y fecha, junto con métodos para calcular el subtotal, total y actualizar el inventario.
+- *Producto*: Representa los productos disponibles, con atributos como nombre y precio. Cada producto puede estar relacionado con múltiples facturas e inventarios.
+- *Inventario*: Administra los productos con atributos como código y cantidad.
+- *Transferencia*: Maneja las transferencias de productos entre sucursales, con atributos como número, fecha, cantidad, y un método para completar la transferencia.
 Tambien tenemos las Relaciones:
 - Las *asociaciones* están claramente representadas, como la relación entre Cliente y Factura (1 a muchos), o entre Producto e Inventario (1 a muchos).
 - *Herencia*: La clase Persona actúa como clase base para Cliente y Empleado.
@@ -24,8 +24,7 @@ Enumeraciones:
 Multiplicidades:
 - Multiplicidades como 1..* (uno a muchos) indican que una entidad puede estar relacionada con múltiples instancias de otra, como Cliente que puede tener múltiples Facturas.
 - Los valores 1 indican relaciones uno a uno, por ejemplo, cada Empleado pertenece a una sola Sucursal.
-Enumeraciones:
-   - Las enumeraciones (MetodoPago, TipoEntrega, Cargo, Estado) definen valores constantes que simplifican el manejo de atributos fijos dentro de las clases.
+Enumeraciones: Las enumeraciones (MetodoPago, TipoEntrega, Cargo, Estado) definen valores constantes que simplifican el manejo de atributos fijos dentro de las clases.
 
 Con este diagrama, se modela claramente la estructura de un sistema de farmacia, las relaciones entre las entidades y los detalles operativos necesarios para su gestión.
 
