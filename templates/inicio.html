@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}?v=2">
+    <style>
+        body {
+            background: url("{% static 'jpg/cuxibamba.jpg' %}") no-repeat center center fixed;
+            background-size: cover;
+            text-align: center; 
+            color: #efed6d;
+        } 
+        h1, p, a { 
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #5fe0d6;
+            color: #1e389d;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #0e0e06;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: blue;
+            color: yellow;
+            text-align: center;
+        }
+         </style>
+    <!-- Cargar la API de Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBC-Rf_zWm_xqzdaCHUoQ0Ep-mdRlpUvaE &callback=initMap" async defer></script>
+</head> 
+<body>
+    <header>
+        <h1>Farmacia</h1>
+        <nav>
+            <ul>
+                <li><a href="/registro/">Registro</a></li>
+                <li><a href="/login/">Ingreso</a></li>
+                <li><a href="/inicio/">Inicio</a></li>
+                <li><a href="/inventario/">Inventario</a></li>
+                <li><a href="/inventario/nuevo/">Nuevo Inventario</a></li>
+                <li><a href="/transferencias/">Transferencias</a></li>
+                <li><a href="/transferencias/crear/">Generar Transferencia</a></li>
+                <li><a href="/productos/">Productos</a></li>
+                <li><a href="/facturas/">Facturas</a></li>
+                <li><a href="/factura/crear/">Generar Factura</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>
+        {% if user.is_authenticated %}
+            ¡Bienvenida {{ user.username }} al Sistema de Farmacia Cuxibamba!
+        {% else %}
+            Bienvenido al Sistema de Farmacia Cuxibamba!
+        {% endif %}
+    
+    </h1>
+    <div id="map" style="height: 400px; width: 100%;"></div>
+    <footer>
+        &copy; Encuentranos en la siguiente dirección 
+    </footer>
+<!-- Script para inicializar el mapa -->
+    <script>
+      function initMap() {
+        // Coordenadas de la ubicación que deseas mostrar
+        const ubicacion = { lat:-4.0254, lng:-79.20301 }; //Coordenadas de Cuxibamba
+        
+        // Crear el mapa
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 15, // Nivel de zoom
+          center: ubicacion, // Centrar el mapa en la ubicación
+        });
+
+        // Marcador en la ubicación
+        new google.maps.Marker({
+          position: ubicacion,
+          map: map,
+          title: "Farmacia Cuxibamba", // Título del marcador
+        });
+      }
+    </script>
+</body>
+</html>

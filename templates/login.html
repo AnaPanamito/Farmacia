@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generar Transferencia</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}?v=2">
+    <style>
+        body {
+            background-color: #a2a204; /* Fondo oscuro para resaltar el amarillo */
+            color: #525d12; /* Texto amarillo */
+        }
+        h2 {
+            color: #080a1a;
+        }
+        .btn {
+            background-color: yellow;
+            color: black;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: darkgoldenrod;
+        }
+        a {
+            color: #525d12;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Inicio de Sesión</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn">Iniciar Sesión</button>
+        </form>
+        <div class="btn-container">
+            <p>¿No tienes una cuenta? <a href="{% url 'registro' %}" class="btn">Regístrate aquí</a></p>
+        </div>
+    </div>
+</body>
+</html>

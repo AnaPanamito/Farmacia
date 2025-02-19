@@ -1,0 +1,172 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}?v=2">
+    <style>
+        body {
+            background: url("{% static 'jpg/FUK2d80XsAIw7xb.jpg' %}") no-repeat center center fixed;
+            background-size: cover;
+            color: #000;
+        }
+        header {
+            background-color: #38cbc0;
+            color: #6de0d7;
+            padding: 15px;
+            text-align: center;
+        }
+        h1 {
+            color: #1e389d;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #0c0505;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .table-container {
+            margin: 20px auto;
+            width: 80%;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8); /* Fondo con opacidad para mejorar la legibilidad */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #110808;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #3ec5bb;
+            color: blue;
+        }
+        th, td {
+            border: 1px solid blue;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: blue;
+            color: yellow;
+        }
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: blue;
+            color: #eeec11;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: darkblue;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 5px;
+        }
+        .pagination .current {
+            color: #eeec11;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Farmacia</h1>
+        <nav>
+            <ul>
+                <li><a href="/registro/">Registro</a></li>
+                <li><a href="/login/">Ingreso</a></li>
+                <li><a href="/inicio/">Inicio</a></li>
+                <li><a href="/inventario/">Inventario</a></li>
+                <li><a href="/inventario/nuevo/">Nuevo Inventario</a></li>
+                <li><a href="/transferencias/">Transferencias</a></li>
+                <li><a href="/transferencias/crear/">Generar Transferencia</a></li>
+                <li><a href="/productos/">Productos</a></li>
+                <li><a href="/facturas/">Facturas</a></li>
+                <li><a href="/factura/crear/">Generar Factura</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="table-container">
+            <h2>Gestión de Inventario</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Sucursal</th>
+                        <th>Cantidad</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for inventario in inventarios %}
+                    <tr>
+                        <td>{{ inventario.producto.nombre }}</td>
+                        <td>{{ inventario.sucursal.numeroSucursal }}</td>
+                        <td>{{ inventario.cantidad }}</td>
+                        <td class="actions">
+                        <div class="btn-container">
+                         <a href="{% url 'editar_inventario' inventario.pk %}" class="btn"><i class="fas fa-edit"></i> Editar</a>
+                        </div>
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="4">No hay inventarios disponibles</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="btn-container">
+            <a href="/inventario/nuevo" class="btn">Nuevo Inventario</a>
+        </div>
+
+        {% if inventarios.has_other_pages %}
+        <div class="pagination">
+            <span class="step-links">
+                {% if inventarios.has_previous %}
+                    <a href="?page=1">&laquo; Primero</a>
+                    <a href="?page={{ inventarios.previous_page_number }}">Anterior</a>
+                {% endif %}
+                <span class="current">
+                    Página {{ inventarios.number }} de {{ inventarios.paginator.num_pages }}.
+                </span>
+                {% if inventarios.has_next %}
+                    <a href="?page={{ inventarios.next_page_number }}">Siguiente</a>
+                    <a href="?page={{ inventarios.paginator.num_pages }}">Último &raquo;</a>
+                {% endif %}
+            </span>
+        </div>
+        {% endif %}
+    </main>
+</body>
+</html>
+ 

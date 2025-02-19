@@ -1,0 +1,119 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Facturas</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}?v=2">
+    <style>
+        body {
+            background: url("{% static 'jpg/cuxibamba.jpg' %}") no-repeat center center fixed;
+            background-size: cover;
+            color: #000; /* Texto negro */
+        }
+        header {
+            background-color: #31c5ba;
+            color: #efed6d;
+            padding: 15px;
+            text-align: center;
+        }
+        h1 {
+            color: #1e389d;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #0e0e06;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .table-container {
+            margin: 20px auto;
+            width: 80%;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para mejorar legibilidad */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h2 {
+            color: blue;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #eeec11;
+            color: blue;
+        }
+        th, td {
+            border: 1px solid blue;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: blue;
+            color: #efed6d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Farmacia</h1>
+        <nav>
+            <ul>
+                <li><a href="/registro/">Registro</a></li>
+                <li><a href="/login/">Ingreso</a></li>
+                <li><a href="/inicio/">Inicio</a></li>
+                <li><a href="/inventario/">Inventario</a></li>
+                <li><a href="/inventario/nuevo/">Nuevo Inventario</a></li>
+                <li><a href="/transferencias/">Transferencias</a></li>
+                <li><a href="/transferencias/crear/">Generar Transferencia</a></li>
+                <li><a href="/productos/">Productos</a></li>
+                <li><a href="/facturas/">Facturas</a></li>
+                <li><a href="/factura/crear/">Generar Factura</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="table-container">
+            <h2>Listar Facturas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Número de Factura</th>
+                        <th>Sucursal</th>
+                        <th>Cliente</th>
+                        <th>Total</th>
+                        <th>Método de Pago</th>
+                        <th>Opción de Entrega</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for factura in facturas %}
+                    <tr>
+                        <td>{{ factura.numero }}</td>
+                        <td>{{ factura.sucursal }}</td>
+                        <td>{{ factura.cliente }}</td>
+                        <td>${{ factura.total }}</td>
+                        <td>{{ factura.metodo_pago }}</td>
+                        <td>{{ factura.TipoEntrega }}</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="6">No hay facturas disponibles</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
